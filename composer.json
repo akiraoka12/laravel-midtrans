@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Akiraoka12\\Midtrans\\": "src"
+            "Marprinhm\\Midtrans\\": "src"
         }
     },
     "autoload-dev": {
