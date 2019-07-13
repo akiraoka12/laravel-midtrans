@@ -61,6 +61,11 @@ class Midtrans implements MidtransFactory {
         return self::clientRequest($endpoint, 'GET');
     }
 
+    public static function transactions($body) {
+        $endpoint = self::snapChargeUrl() . '/' . $body['token'] . '/pay';
+        return self::clientRequest($endpoint, 'POST', $body['body']);
+    }
+
     /**
     * Approve challenge transaction
     * @param string $order_id => order_id or transaction_id
