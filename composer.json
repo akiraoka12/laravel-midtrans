@@ -1,5 +1,5 @@
 {
-    "name": "marprinhm/midtrans",
+    "name": "akiraoka12/midtrans",
     "description": "A Midtrans Payment Wrapper for Laravel",
     "license": "MIT",
     "keywords": [
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Marprinhm\\Midtrans\\": "src"
+            "Akiraoka12\\Midtrans\\": "src"
         }
     },
     "autoload-dev": {
